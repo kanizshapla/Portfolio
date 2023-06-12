@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-        <section class="heading">
+        <section id="heading">
             <header class="p-3 text-bg-dark">
                 <div class="container">
                   <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -20,10 +20,10 @@
             
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                       <li><a href="#" class="nav-link px-2 text-secondary">About</a></li>
-                      <li><a href="#" class="nav-link px-2 text-white">Experience</a></li>
-                      <li><a href="#" class="nav-link px-2 text-white">Work</a></li>
-                      <li><a href="#" class="nav-link px-2 text-white">Contact</a></li>
-                      <li><a href="#" class="nav-link px-2 text-white">Resume</a></li>
+                      <li><a href="#feature" class="nav-link px-2 text-white">Experience</a></li>
+                      <li><a href="#projects" class="nav-link px-2 text-white">Work</a></li>
+                      <li><a href="#contact-me" class="nav-link px-2 text-white">Contact</a></li>
+                      <li><a href="./assets/pdf/Profile.pdf" class="nav-link px-2 text-white">Resume</a></li>
                     </ul>
             
                     <!-- <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
@@ -36,14 +36,14 @@
                     </div> -->
                     <div class="text-end">
                         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                        <li><a href="#" class="nav-link px-2 text-white">Home</a></li>
+                        <li><a href="#heading" class="nav-link px-2 text-white">Home</a></li>
                        </ul>
                       </div>
                   </div>
                 </div>
               </header>
         </section>
-        <section class="heroes">
+        <section id="heroes">
             <div class="bg-dark text-secondary px-4 py-5 text-center">
                 <div class="py-5">
                 <img src="assets/kaniz.png" alt="profile" class="profile-img">
@@ -52,15 +52,15 @@
                     <h2 class="fs-5 mb-4">I Build Things for Web</h2>
                     <p class= "mb-4">a passionate and dedicated web developer with [X] years of experience in creating exceptional websites and web applications. I specialize in front-end development, utilizing modern technologies such as HTML5, CSS3, JavaScript, and responsive design principles. I am constantly expanding my skills and staying up-to-date with the latest industry trends to deliver the best possible user experiences.</p>
                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                      <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Check out my works!</button>
-                      <button type="button" class="btn btn-outline-light btn-lg px-4">View my resume</button>
+                      <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"><a href="#projects">Check out my works!</a></button>
+                      <button type="button" class="btn btn-outline-light btn-lg px-4"><a href="#contact-me">Contact Me!</a></button>
                     </div>
                   </div>
                 </div>
               </div>
         </section>
 
-        <section class="feature">
+        <section id="feature">
             <div class="container">
                 <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                     <div class="col">
@@ -135,64 +135,32 @@
                   </div>
             </div>
         </section>
-        <section class="py-5 text-center container">
+        <section id=" text-center container">
             <div class="row py-lg-5">
               <div class="col-lg-6 col-md-8 mx-auto">
                 <h1 class="fw-light">Projects</h1>
-                <p class="lead text-body-secondary">I </p>
-                <p>
-                  <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                  <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-                </p>
               </div>
             </div>
           </section>
-        <section class="projects">
-            <div class="album py-5 bg-body-tertiary">
+        <section id="projects" >
+            <div class="album py-5 bg-body-tertiary" >
                 <div class="container">
             
                   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <div class="col">
                       <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                         <img src="./assets/cine.png" alt="cine-critique" class="card-img">
                         <div class="card-body">
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text">
+                            CineCritique is an innovative web-based project developed using Node.js, React, and JavaScript, offering a comprehensive platform for film enthusiasts to share their reviews and critique movies. The project
+                             seamlessly integrates both frontend and backend functionalities to create a cohesive user experience.
+                          </p>
                           <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://cinecritique-web-app-inky.vercel.app/">View</a></button>
+                            
                             </div>
-                            <small class="text-body-secondary">9 mins</small>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                        <div class="card-body">
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                            </div>
-                            <small class="text-body-secondary">9 mins</small>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                        <div class="card-body">
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                            </div>
-                            <small class="text-body-secondary">9 mins</small>
+                      
                           </div>
                         </div>
                       </div>
@@ -200,91 +168,37 @@
             
                     <div class="col">
                       <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                        <img src="./assets/newsletter.PNG" alt="newsletter" class="card-img">
                         <div class="card-body">
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text">
+                            The newsletter signup feature is implemented using HTML, CSS, Bootstrap, and JavaScript to create a
+                             visually appealing and interactive form for users to subscribe to the newsletter.
+                             By utilizing HTML, CSS, Bootstrap, and JavaScript, the CineCritique project creates an attractive and functional newsletter signup form.
+                            </p>
                           <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://tasty-frog-housecoat.cyclic.app/">View</a></button>
+                           
                             </div>
-                            <small class="text-body-secondary">9 mins</small>
+                         
                           </div>
                         </div>
                       </div>
                     </div>
+                   
                     <div class="col">
                       <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                        <img src="./assets/online-shop.avif" alt="online shop" class="card-img">
                         <div class="card-body">
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text">
+                            The online shop project is built using HTML, CSS, and JavaScript to create an interactive and visually appealing e-commerce platform.
+                            It's worth nothing that while HTML, CSS, and JavaScript are the primary technologies used for building the frontend of the online shop, the backend functionalities.
                           <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/kanizshapla/cdp-assignment">View</a></button>
+                              
                             </div>
-                            <small class="text-body-secondary">9 mins</small>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                        <div class="card-body">
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                            </div>
-                            <small class="text-body-secondary">9 mins</small>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-            
-                    <div class="col">
-                      <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                        <div class="card-body">
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                            </div>
-                            <small class="text-body-secondary">9 mins</small>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                        <div class="card-body">
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                            </div>
-                            <small class="text-body-secondary">9 mins</small>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                        <div class="card-body">
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                            </div>
-                            <small class="text-body-secondary">9 mins</small>
+                           
                           </div>
                         </div>
                       </div>
@@ -292,6 +206,46 @@
                   </div>
                 </div>
               </div>
+        </section>
+        <section id="contact-me">
+          <div class="px-4 py-5 my-5 text-center">
+            <!-- <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
+            <h2 class="display-5 fw-bold">Contact Me</h2>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">
+                <ul class="list-group list-unstyled" >
+                  <li class="list-group-item-dark bg-dark">
+                    Kaniz Fatema
+
+                  </li>
+                  <li class="list-group-item-dark bg-dark">Email: kanizshapla46@gmail.com</li>
+                <li class="list-group-item-dark bg-dark">  Phone: +8801762950412</li>
+                <li class="list-group-item-dark bg-dark">Address: Dhaka, Bangladesh</li>
+                <li class="list-group-item-dark bg-dark">LinkedIn: <a href="https://www.linkedin.com/in/kanizshapla46/">https://www.linkedin.com/in/kanizshapla46/</a></li>
+                <li class="list-group-item-dark bg-dark">GitHub: <a href="https://github.com/kanizshapla/">https://github.com/kanizshapla/</a></li>
+                </ul>
+              </p>
+              
+            </div>
+          </div>
+        </section>
+
+        <section id="footer">
+          <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <p class="col-md-4 mb-0 text-white">© Kaniz</p>
+          
+              <a href="http://linkedin.com/kanizshapla46" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+          
+              <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#heading" class="nav-link px-2 text-white">Home</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link px-2 text-white">Projects</a></li>
+
+              </ul>
+            </footer>
+          </div>
         </section>
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

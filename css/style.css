@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(36, 34, 34);
+  color: beige;
+}
 .profile-img {
     height: 200px;
     border-radius: 50%;
@@ -5,4 +9,18 @@
     align-items: center;
     justify-content: center;
   }
+footer{
+    
+}
   
+  .card-img{
+    height:250px;
+    width:100x;
+  }
+
+  .card{
+    height:600px;
+    width:300x;
+    background-color: rgb(26, 24, 24);
+    color: rgb(194, 194, 191);
+  }
