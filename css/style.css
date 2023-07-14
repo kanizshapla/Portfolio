@@ -15,12 +15,40 @@ footer{
   
   .card-img{
     height:250px;
-    width:100x;
+    width:280px;
+    align-self: center;
+    margin-top: 10px;
   }
 
   .card{
     height:600px;
-    width:300x;
+    width:300px;
     background-color: rgb(26, 24, 24);
     color: rgb(194, 194, 191);
   }
+
+  /* animation */
+  .css-selector {
+    background: linear-gradient(270deg, #1a1c1b, #695a67, #01051e);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 59%}
+    50%{background-position:100% 42%}
+    100%{background-position:0% 59%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 59%}
+    50%{background-position:100% 42%}
+    100%{background-position:0% 59%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 59%}
+    50%{background-position:100% 42%}
+    100%{background-position:0% 59%}
+}
